@@ -30,7 +30,6 @@ build
 *.sln
 *.sw?
 
-todo.txt
 
 .next
 .vscode
