@@ -1,0 +1,29 @@
+.button {
+    color: red;
+
+    // Variants
+    &--variant__contained {
+        background: inherit;
+    }
+
+    // Colors
+    &--color__primary {
+        background: $gray_900;
+        color: white;
+    }
+
+    // Sizes
+    &--size__m {
+        @apply py-2.5 px-5;
+        @include button_medium;
+    }
+
+    // Border radiuses
+    &--border-radius__s {
+        border-radius: 4px;
+    }
+
+    &--fullWidth {
+        width: 100%;
+    }
+}
